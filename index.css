@@ -304,20 +304,26 @@ footer div i {
   margin: 20px;
 }
 
+.gitt,
+.twitt,
+.linkk {
+  filter: brightness(50%);
+  color: white;
+}
+
 .gitt:hover {
   background: green;
+  filter: brightness(90%);
 }
 
 .twitt:hover {
   background: #3aaae2;
-}
-
-.instt:hover {
-  background: purple;
+  filter: brightness(90%);
 }
 
 .linkk:hover {
   background: blue;
+  filter: brightness(90%);
 }
 
 .tags {
