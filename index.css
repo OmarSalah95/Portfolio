@@ -330,6 +330,7 @@ footer div i {
 }
 .file:hover {
   background: #ff385f;
+  filter: brightness(90%);
 }
 
 .tags {
