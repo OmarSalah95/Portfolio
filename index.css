@@ -1,77 +1,72 @@
 /* background-image: url("./code.jpg"); */
 
-
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .lineunder {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .topSection {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .introContainer {
-   height: 100%;
-   width: 100%;
-   background-image: url("./codeworld.jpg");
-   background-size: cover;
-   filter: blur(3px);
-   transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+  background-image: url("./codeworld.jpg");
+  background-size: cover;
+  filter: blur(3px);
+  transform: scale(1.1);
 }
 
 .introText {
-    color: white;
-
+  color: white;
 }
 
 .topSecContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 3;
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    opacity: 0;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  opacity: 0;
 }
 
 .topSecContent h3 {
-    color: white;
-    font-family: 'Alegreya Sans SC';
-    font-size: 2.5rem;
-    line-height: 1.2em;
-    margin: 0px;
-    margin-bottom: 10px;
-    font-weight: 400;
+  color: white;
+  font-family: "Alegreya Sans SC";
+  font-size: 2.5rem;
+  line-height: 1.2em;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .topSecContent a {
-    height: 45px;
-    width: 160px;
-    background: rgba(255, 56, 95, 0);
-    border: 3px solid rgba(255, 255, 255, 1);
-    border-radius: 5px;
-    color: white;
-    font-family: 'Alegreya Sans SC';
-    font-size: 1.1rem;
-    margin-top: 10px;
-    text-align: center;
-    line-height: 2.5;
+  height: 45px;
+  width: 160px;
+  background: rgba(255, 56, 95, 0);
+  border: 3px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  color: white;
+  font-family: "Alegreya Sans SC";
+  font-size: 1.1rem;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 2.5;
 }
 
-
-
 .inline1 {
-    color: #FF385F;
-} 
+  color: #ff385f;
+}
 
- /* .navbarContent {
+/* .navbarContent {
     z-index: 3;
     position: fixed;
     top: 10px;
@@ -81,427 +76,409 @@ body {
     margin-top: 5px;
 } */
 
-
-
 #JHlogo {
-    color: white;
-    margin-left: 30px;
-    font-family: 'Aclonica';
-    font-size: 30px;
-    position: fixed;
-    z-index: 3;
-    top: 12px;
-    z-index: 6;
-} 
-
-#MenuLogo {
-    color: white;
-    margin-right: 80px;
-    position: fixed;
-    z-index: 3;
-    top: 12px;
-    left: 95%;
-    z-index: 6;
+  color: white;
+  margin-left: 30px;
+  font-family: "Aclonica";
+  font-size: 30px;
+  position: fixed;
+  z-index: 3;
+  top: 12px;
+  z-index: 6;
 }
 
-
+#MenuLogo {
+  color: white;
+  margin-right: 80px;
+  position: fixed;
+  z-index: 3;
+  top: 12px;
+  left: 95%;
+  z-index: 6;
+}
 
 .clickPointer:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #firstLine {
-    transform: translateX(-400px);
+  transform: translateX(-400px);
 }
 
 #secondLine {
-    transform: translateX(400px);
+  transform: translateX(400px);
 }
 
 .secondSection {
-    height: 60px;
-    padding-left: 100px;
-    display: flex;
-    align-items: center;
-    background-color: #151515;
-    border-bottom: 3px solid #3AE2D5;
-    z-index: 3;
+  height: 60px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #151515;
+  border-bottom: 3px solid #3ae2d5;
+  z-index: 3;
 }
 
-
 .secondSection a {
-    font-size: 1.3rem;
-    margin: 15px 30px;
-    font-family: 'Athiti';
-    color: white;
+  font-size: 1.3rem;
+  margin: 15px 30px;
+  font-family: "Athiti";
+  color: white;
 }
 
 .profpic {
-    border-radius: 50%;
-    width: 300px;
-     border: 4px solid #3AE2D5;
-     padding: 5px; 
+  object-fit: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 4px solid #3ae2d5;
+  padding: 5px;
 }
 
 .secondSecContent {
-    width: 500px;
+  width: 500px;
 }
 
 .secondSecWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 400px;
-   
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
 }
 
 h2 {
-  text-align: center;  
+  text-align: center;
 }
 
 .secondSecContent p {
-    font-size: 1.4rem;
-    font-family: 'Athiti';
+  font-size: 1.4rem;
+  font-family: "Athiti";
 }
 
 .introTitle {
-    font-size: 2.6rem;
-    color: black;
-    font-family: 'Alegreya Sans SC';
-    margin: 0px;
-    margin-top: 25px;
-
+  font-size: 2.6rem;
+  color: black;
+  font-family: "Alegreya Sans SC";
+  margin: 0px;
+  margin-top: 25px;
 }
 
 .shortLine {
-    width: 100px;
-    height: 10px;
-    border-bottom: 7px solid #FF385F;
-    text-align: center;
+  width: 100px;
+  height: 10px;
+  border-bottom: 7px solid #ff385f;
+  text-align: center;
 
-    opacity: 0;
+  opacity: 0;
 }
 
 .shortLineCover {
-    background: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .projectsTitle {
-    font-size: 2.6rem;
-    color: black;
-    font-family: 'Alegreya Sans SC';
-    margin: 0px;
-    padding-top: 25px;
-    background-color: #E1E1E1;
+  font-size: 2.6rem;
+  color: black;
+  font-family: "Alegreya Sans SC";
+  margin: 0px;
+  padding-top: 25px;
+  background-color: #e1e1e1;
 }
 
 #aaaa {
-    transform: translateY(-20px);
-    opacity: 0;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
-
 .projectOne {
-    width: 500px; 
-    height: 250px;
-    border: 5px solid #3AE2D5;
-    border-radius: 10px;
-    padding: 5px;
+  width: 500px;
+  height: 250px;
+  border: 5px solid #3ae2d5;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .griipeContainer {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #E1E1E1;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e1e1e1;
+  padding-bottom: 30px;
 }
 
 .griipeText {
-    width: 500px;
+  width: 500px;
 }
 
 .griipeText {
-    font-size: 1.4rem;
-    font-family: 'Athiti';
+  font-size: 1.4rem;
+  font-family: "Athiti";
 }
 
 .griipeText h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .shortLineCover2 {
-    background: #E1E1E1;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  background: #e1e1e1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 li {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .secondg {
-
-    flex-direction: row;
-    background: #444444;
-    padding: 60px 0px;
+  flex-direction: row;
+  background: #444444;
+  padding: 60px 0px;
 }
 
 .secondg p {
-    color: white;
+  color: white;
 }
 
 .secondg h3 {
-    color: white;
+  color: white;
 }
 
 .secondg img {
-    border: 5px solid #FF385F;
+  border: 5px solid #ff385f;
 }
 
 .thirdg {
-    background: white;
+  background: white;
 }
 
 .wayve {
-    width: 100%;
-    height: 50px;
-    background: #E1E1E1;
+  width: 100%;
+  height: 50px;
+  background: #e1e1e1;
 }
 
 .wayve2 {
-    width: 100%;
-    height: 20px;
-    background: #444444;
-    -webkit-transform:rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+  width: 100%;
+  height: 20px;
+  background: #444444;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .wayve3 {
-   height: 80px;
-   width: 100%;
-   background-color: #151515;
+  height: 80px;
+  width: 100%;
+  background-color: #151515;
 }
 
 .plusone {
-    color: #FF385F;
-    background: #151515;
-    padding: 0;
-    font-size: 1.7rem;
-  
+  color: #ff385f;
+  background: #151515;
+  padding: 0;
+  font-size: 1.7rem;
 }
 
 footer div {
-    display: flex;
-    justify-content: center;
-    background-color: #151515;
-    padding: 10px 0px;
-
+  display: flex;
+  justify-content: center;
+  background-color: #151515;
+  padding: 10px 0px;
 }
 
 footer div i {
-    background: #151515;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 8px;
-    margin: 20px;
+  background: #151515;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 20px;
 }
 
- .gitt:hover {
-    background: green;
+.gitt:hover {
+  background: green;
 }
 
 .twitt:hover {
-    background: #3AAAE2;
+  background: #3aaae2;
 }
 
 .instt:hover {
-    background: purple;
+  background: purple;
 }
 
 .linkk:hover {
-    background: blue;
-} 
-
-.tags {
-    background: #151515;
-    color: #FF385F;
-    text-align: center;
-    margin: 0px;
-    padding-top: 50px;
-    font-family: 'Alegreya Sans SC';
-    font-size: 1.1rem;
+  background: blue;
 }
 
+.tags {
+  background: #151515;
+  color: #ff385f;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+  font-family: "Alegreya Sans SC";
+  font-size: 1.1rem;
+}
 
 .credits {
-    padding: 0px;
-    margin: 0px;
-    color: #FF385F;
-    background: #151515;
-    text-align: center;
-    padding-bottom: 20px;
-    font-family: 'Alegreya Sans SC';
-    font-size: 1.1rem;
+  padding: 0px;
+  margin: 0px;
+  color: #ff385f;
+  background: #151515;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Alegreya Sans SC";
+  font-size: 1.1rem;
 }
 
 .openMenu {
-    display: flex;
-    opacity: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 6;
-    background: rgb(0, 0, 0, .8);
-    transform: translateX(160px);
-    display: none;
-
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+  background: rgb(0, 0, 0, 0.8);
+  transform: translateX(160px);
+  display: none;
 }
 
 .openMenu a {
-    font-weight: 100px;
-    color: rgba(255, 255, 255);
-    font-size: 4rem;
-    padding-bottom: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100px;
+  color: rgba(255, 255, 255);
+  font-size: 4rem;
+  padding-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 #exitButton {
-    color: white;
-    margin-right: 80px;
-    position: fixed;
-    top: 12px;
-    left: 95%;
-    z-index: 8;
-    transform: rotate(0deg);
-    display: none;
+  color: white;
+  margin-right: 80px;
+  position: fixed;
+  top: 12px;
+  left: 95%;
+  z-index: 8;
+  transform: rotate(0deg);
+  display: none;
 }
 
- 
 @media (max-width: 1110px) {
-    .secondSecWrapper {
-        flex-direction: column;
-        height: 900px;
-    }
+  .secondSecWrapper {
+    flex-direction: column;
+    height: 900px;
+  }
 
-    .griipeContainer {
-        flex-direction: column;
-    }
+  .griipeContainer {
+    flex-direction: column;
+  }
 
-    .profpic {
-        margin: 20px 0px;
-        width: 50%;
-    }
+  .profpic {
+    margin: 20px 0px;
+    width: 50%;
+  }
 
-    .secondSecContent  {
-        width: 90%;
-    }
+  .secondSecContent {
+    width: 90%;
+  }
 
-    .secondSecContent p {
-        font-size: 1.9rem;
-    }
+  .secondSecContent p {
+    font-size: 1.9rem;
+  }
 
-    .secondSection a {
-        font-size: 1.8rem;
-    }
+  .secondSection a {
+    font-size: 1.8rem;
+  }
 
-    .secondSection {
-        padding: 0px;
-        justify-content: center;
-    }
+  .secondSection {
+    padding: 0px;
+    justify-content: center;
+  }
 
-    .projectOne {
-        width: 90%;
-        height: auto;
-    }
+  .projectOne {
+    width: 90%;
+    height: auto;
+  }
 
-    #aaaa {
-        font-size: 3rem;
-    }
+  #aaaa {
+    font-size: 3rem;
+  }
 
-    .griipeText {
-        width: 90%
-    }
+  .griipeText {
+    width: 90%;
+  }
 
-    .griipeText p {
-        font-size: 1.9rem;
-    }
+  .griipeText p {
+    font-size: 1.9rem;
+  }
 
-    .griipeText h3 {
-        font-size: 2.2rem;
-    }
+  .griipeText h3 {
+    font-size: 2.2rem;
+  }
 
-    .projectsTitle {
-        font-size: 3rem;
-    }
+  .projectsTitle {
+    font-size: 3rem;
+  }
 
-    #MenuLogo {
+  #MenuLogo {
+    left: 90%;
+  }
 
-        left: 90%;
-    }
+  #exitButton {
+    left: 90%;
+  }
 
-    #exitButton {
-        left: 90%;
-    }
+  .topSecContent h3 {
+    font-size: 3.5rem;
+  }
 
-    .topSecContent h3 {
-        font-size: 3.5rem;
-    }
-
-    #ViewMyWork {
-        width: 250px;
-        height: 80px;
-        line-height: 2.5;
-        font-size: 2rem;
-    }
-    
+  #ViewMyWork {
+    width: 250px;
+    height: 80px;
+    line-height: 2.5;
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 800px) {
-    .secondSection a {
-        font-size: 1.5rem;
-    }
+  .secondSection a {
+    font-size: 1.5rem;
+  }
 
-    .topSecContent h3 {
-        font-size: 2.5rem;
-    }
+  .topSecContent h3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 600px) {
-.griipeText p {
+  .griipeText p {
     font-size: 1.4rem;
-}
+  }
 
-.secondSecContent p {
+  .secondSecContent p {
     font-size: 1.4rem;
-}
+  }
 
-.secondSecWrapper {
-
+  .secondSecWrapper {
     height: 650px;
-}
+  }
 
-    .secondSection a {
-        margin: 0px;
-        margin-left: 20px;
-    }
+  .secondSection a {
+    margin: 0px;
+    margin-left: 20px;
+  }
 
-.topSecContent h3 {
+  .topSecContent h3 {
     text-align: center;
+  }
 }
-
-
-} 
-
