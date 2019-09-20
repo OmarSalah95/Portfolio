@@ -3,7 +3,9 @@
 body {
   margin: 0px;
 }
-
+img {
+  object-fit: cover;
+}
 .lineunder {
   text-decoration: none;
 }
