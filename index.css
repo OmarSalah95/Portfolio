@@ -303,10 +303,13 @@ footer div i {
   padding: 8px;
   margin: 20px;
 }
-
+.file {
+  object-fit: contain;
+}
 .gitt,
 .twitt,
-.linkk {
+.linkk,
+.file {
   filter: brightness(50%);
   color: white;
 }
@@ -324,6 +327,9 @@ footer div i {
 .linkk:hover {
   background: blue;
   filter: brightness(90%);
+}
+.file:hover {
+  background: #ff385f;
 }
 
 .tags {
