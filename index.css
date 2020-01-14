@@ -496,4 +496,8 @@ footer div i {
   .topSecContent h3 {
     text-align: center;
   }
+
+  .vanish {
+    display: none;
+  }
 }
