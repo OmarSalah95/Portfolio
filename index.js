@@ -165,3 +165,12 @@ window.addEventListener("scroll", function() {
 document.getElementById("aaaa").addEventListener("click", function() {
   console.log(intElemScrollTop);
 });
+// The Server itself accepted a few Simple commands for Movement(Walk, Fly, Dash), looting(Pickup, drop, sell), wear, transmogrify, examine, get name, and pray with a corresponding cooldown time between ALL requests pending the previous command. Before being able to
+// mine a coin a player is required to Loot and self enough treasure to purchase a name from Pirate Ry(In one of the many rooms of the map). Getting a name Allows the player the ability to pray to shrines,
+// // and examine the well(All of which are in specific rooms in the map).
+// First we needed to build out the base controls and commands with the server, we did this quickly by implementing a player model and mapping requests to various methods on that model. After my team and I implemented a Graph traversal algorithm
+//                         that would Traverse the map in the fewest possible steps creating a player map indicating all room data as well as separating all Points of Interest, and adjacency list written in their own files that the team could colectively
+//                         Next I built a REPL mapping both our player model and BOT functions to commands that a user could input and use as an Interface. We then built the travelTo using a Breadth First Search to automatically traverse to a target while implementing the base travel methods
+//                         and using all available abilities(These are used to reduce request cool downs and increase travel speed).
+
+//                         Once the core commands we would need were built we built out custom BOT functions that would automatically complete any of the Game objectives
