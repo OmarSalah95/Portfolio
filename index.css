@@ -212,7 +212,9 @@ h2 {
   background-color: #e1e1e1;
   padding-bottom: 30px;
 }
-
+.flip {
+  flex-direction: row;
+}
 .griipeText {
   width: 500px;
 }
@@ -499,5 +501,8 @@ footer div i {
 
   .vanish {
     display: none;
+  }
+  .flip {
+    flex-direction: column;
   }
 }
