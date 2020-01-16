@@ -240,7 +240,7 @@ li {
 }
 
 .secondg {
-  flex-direction: row;
+  /* flex-direction: row; */
   background: #444444;
   padding: 60px 0px;
 }
