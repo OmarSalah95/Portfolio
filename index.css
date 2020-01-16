@@ -212,7 +212,9 @@ h2 {
   background-color: #e1e1e1;
   padding-bottom: 30px;
 }
-
+.flip {
+  flex-direction: row;
+}
 .griipeText {
   width: 500px;
 }
@@ -238,7 +240,7 @@ li {
 }
 
 .secondg {
-  flex-direction: row;
+  /* flex-direction: row; */
   background: #444444;
   padding: 60px 0px;
 }
@@ -495,5 +497,12 @@ footer div i {
 
   .topSecContent h3 {
     text-align: center;
+  }
+
+  .vanish {
+    display: none;
+  }
+  .flip {
+    flex-direction: column;
   }
 }
