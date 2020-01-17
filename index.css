@@ -15,7 +15,6 @@ img {
   height: 100%;
   width: 100%;
 }
-
 .introContainer {
   height: 100%;
   width: 100%;
@@ -216,7 +215,11 @@ h2 {
   flex-direction: row;
 }
 .griipeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 500px;
+  /* text-align: center; */
 }
 
 .griipeText {
@@ -333,6 +336,22 @@ footer div i {
 .file:hover {
   background: #ff385f;
   filter: brightness(90%);
+}
+
+.projGitLink {
+  align-self: center;
+}
+.projGitLinkIcon {
+  background: green;
+  filter: brightness(100%);
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 20px;
+}
+.projGitLinkIcon:hover {
+  border: 2px solid black;
+  filter: brightness(65%);
 }
 
 .tags {
